@@ -74,7 +74,7 @@ class Mycart extends Component {
             </td>
             <td class="px-6 py-4">{CartUtil.getTotal(this.context.mycart)}
             </td>
-            <td class="px-6 py-4"><span className="link" onClick={() => this.lnkCheckoutClick()}>CHECKOUT</span>
+            <td class="px-6 py-4"><span className="link hs" onClick={() => this.lnkCheckoutClick()}>CHECKOUT</span>
             </td>
           </tr>
         </table>
